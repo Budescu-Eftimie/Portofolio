@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.nav-container {
+  color: #f9faf8;
+  background-color: #19425a;
+  padding: 10px 300px 90px 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.links {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.photos {
+  padding: 40px 0 100px 0;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.photos p {
+  max-width: 200px;
+  text-align: center;
+}
+
+h2 {
+  padding-top: 40px;
+}
+
+a {
+  color: #f9faf8;
+  text-decoration: none;
+}
+h2 {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.logo {
+  color: #f9faf8;
+  font-size: 24px;
+}
+
+.description {
+  min-width: 380px;
+  max-width: 400px;
+}
+
+.quote-section {
+  display: flex;
+  justify-content: center;
+  background-color: #e5e7eb;
+  text-align: center;
+}
+
+.quote-section p {
+  padding: 70px 0;
+  width: 860px;
+  font-size: 36px;
+  font-style: italic;
+  color: #63676d;
+  font-weight: lighter;
+}
+
+.hr-img {
+  min-width: 400px;
+  max-height: 250px;
+  max-width: 400px;
+}
+.photos img {
+  width: auto;
+  border-radius: 7px;
+  height: 150px;
+  object-fit: contain;
+}
+.description h1 {
+  padding: 5px;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.description p {
+  color: #f9faf880;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+button {
+  font-size: 18px;
+  padding: 5px 15px 5px 15px;
+  border-radius: 7px;
+  background-color: #387be6;
+}
+
+.call-act {
+  max-width: 1000px;
+  border-radius: 15px;
+  padding: 40px 60px;
+  margin: 60px auto;
+  background-color: #3882f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.call-act button {
+  border-radius: 11px;
+  border: 3px solid white;
+  color: #f9faf8;
+  font-size: 20px;
+  font-weight: bold;
+  max-height: 50px;
+  min-width: 150px;
+}
+
+h3 {
+  color: #f9faf8;
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.call-act p {
+  color: #f9faf899;
+  font-size: 20px;
+}
+
+footer {
+  padding: 10px;
+  color: #f9faf8;
+  display: flex;
+  justify-content: center;
+  background-color: #19425a;
+}
+
+footer p {
+  padding: 50px auto;
+}
